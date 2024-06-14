@@ -12,17 +12,37 @@ Now I am gonna preprocess/Clean the datasets :
     In this simple dataset, the issues to be cleaned includes
 
         -> Combine 2021 and 2022 file
-        -> Serial NO, OredrID Columns are not needed
-        -> Order Date and Received date are not needed instead a single column containing year is enough
+        -> Serial NO, OredrID, Order Date Columns are not needed
+        -> Received date is not needed instead a column containing year is enough
         -> Mr./Mrs. column and Name column should be combined
         -> Rs should be removed, number alone is enough
 
-    As this is a small dataset, We can do the cleaninjg process manually, but will we do in case of large datasets ?
+    As this is a small dataset, We can do the cleaning process manually, but what will we do in case of large datasets ?
 
       So, there comes the need for automation using Power query
 
     STEPS :
 
         1. Create new Excel Sheet
-        2. Data -> Get Data -> from files -> from folder -> Select the folder
+        2. Combining Datasets 
+        
+            Data -> Get Data -> from files -> from folder -> Select the folder -> OK
+            Power Query editor will be opened
+
+        3. Right click on the unwanted columns and click remove 
+        4. Split
+
+            Click split -> Delimitor -> each occurence of Delimitor -> OK
+
+        5. Merge Columns
+
+            select the first column, press ctrl and selct the second column and click merge -> custom -> .
+
+        6. Close and Load
+
+Visualize using charts
+
+    insert charts
+
+Even if we add multiple files to the folder, after refreshing it gets updated in the sheet.
 
