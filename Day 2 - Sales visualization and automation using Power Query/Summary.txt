@@ -26,7 +26,7 @@ Now I am gonna preprocess/Clean the datasets :
         1. Create new Excel Sheet
         2. Combining Datasets 
         
-            Data -> Get Data -> from files -> from folder -> Select the folder -> OK
+            Data -> Get Data -> from files -> from folder -> Select the folder -> Choose Combine transform data -> OK
             Power Query editor will be opened
 
         3. Right click on the unwanted columns and click remove 
