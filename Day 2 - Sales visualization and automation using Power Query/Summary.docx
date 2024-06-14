@@ -1,0 +1,28 @@
+SALES VISUALIZATION AND AUTOMATION USING POWER QUERY
+
+
+AIM - To analyze the two sales data(2021 & 2022), perform automation using Power Query and finally visualize the result data.
+
+
+Initially, I have creted 2 Excel files/Dataset (2021,2022) that contains sales data of the respective years.
+
+
+Now I am gonna preprocess/Clean the datasets :
+
+    In this simple dataset, the issues to be cleaned includes
+
+        -> Combine 2021 and 2022 file
+        -> Serial NO, OredrID Columns are not needed
+        -> Order Date and Received date are not needed instead a single column containing year is enough
+        -> Mr./Mrs. column and Name column should be combined
+        -> Rs should be removed, number alone is enough
+
+    As this is a small dataset, We can do the cleaninjg process manually, but will we do in case of large datasets ?
+
+      So, there comes the need for automation using Power query
+
+    STEPS :
+
+        1. Create new Excel Sheet
+        2. Data -> Get Data -> from files -> from folder -> Select the folder
+        
